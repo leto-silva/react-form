@@ -1,8 +1,7 @@
 import { Component } from 'react';
 import './App.css';
-import './Component/MyForm';
 import MyForm from './Component/MyForm';
-
+import MyForm2 from './Component/MyForm2';
 
 class App extends Component {
 
@@ -10,8 +9,14 @@ class App extends Component {
 
     return(
       <div>
-        <MyForm />
-      </div>
+        <div>
+          <MyForm />
+        </div>
+        <hr/>
+        <div>  
+          <MyForm2 />
+        </div>
+     </div> 
     )
    
   }
